@@ -1,10 +1,21 @@
 .footer {
-    height: 9vh;
+    height: 5vh;
     display: flex;
     justify-content: space-between;
-    margin-top: 1.5rem;
+    margin: 1rem;
     
     .footer__link{
+
+        .footer__link-item {
+           padding: 1rem;
+        }
+    }
+    .footer__copy {
+        font-size: 0.6rem;
+        padding-right: 1rem;
+    }
+}
+/*.footer__link{
         margin-left: 2rem;
         .footer__link-item {
             padding: 0 1.5rem;
@@ -14,4 +25,4 @@
         font-size: 0.6rem;
         padding-right: 3rem;
     }
-}
+    */

@@ -17,7 +17,7 @@ class Footer extends Component {
                     <a className="footer__link-item" href="https://www.instagram.com/"><i class="fab fa-instagram-square">Instagram</i></a>
                 </div> 
                 <div>
-                    <p className="copy">&copy; Botani 2021</p>
+                    <p className="footer__copy">&copy; Botani 2021</p>
                 </div>
             </footer>
         )
