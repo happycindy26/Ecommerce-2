@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+   
+    .navbar__logo {
+        height: 6vh;
+        margin: 1rem;
+    }
+    .navbar__nav {
+        height: 6vh;
+        margin-top: 1.3rem;
+        .navbar__nav-item {
+            font-weight: 700;
+            padding: 1.5rem;
+        }
+    }
+    
+}
+
+/*
+.navbar__nav {
+        list-style: none;
+        display: flex;
+        
+        li {
+            margin: 0.3rem 1rem;
+            font-weight: 700;
+            
+        }
+    }
+    .buttons {
+        display: flex;
+        
+        margin: 1rem 6rem;
+        .btn {
+            margin: 0 2rem;
+            text-decoration: none;
+        }
+     
+    }
+    */

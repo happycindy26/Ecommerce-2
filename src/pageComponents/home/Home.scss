@@ -1,0 +1,88 @@
+.home {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(184, 245, 184, 0.8), 
+        rgba(3, 151, 3, 0.8)) , 
+    url(../../images/OliveLeafHeart.PNG);
+    background-size: cover;
+    background-position: center;
+    .home__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        .title {
+            color: white;
+            backface-visibility: hidden;
+            .title--main {
+                display: block;
+                font-size: 3rem;
+                letter-spacing: 1rem;
+                animation: moveInLeft 1s ease-out;
+            }
+            .title--sub {
+                display: block;
+                font-size: 1.5rem;
+                font-weight: 700;
+                letter-spacing: 0.3rem;
+                animation: moveInRight 1s ease-out;
+                margin: 2rem;
+            }
+        }
+        .btn {
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            margin: 1rem;
+            border-radius: 6rem;
+            border: none;
+            cursor: pointer;
+            &:hover {
+                background-color: darkgreen;
+                color: white;
+            }
+        }
+        .btn--animation {
+            animation: moveInBottom 1s ease-out;
+        }
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-6rem);
+    }
+    80% {
+        transform: translateX(1.25rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(6rem);
+    }
+    80% {
+        transform: translateX(-1.25rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
