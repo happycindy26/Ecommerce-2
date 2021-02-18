@@ -4,25 +4,14 @@
     justify-content: space-between;
     margin: 1rem;
     
-    .footer__link{
+    &__link{
 
-        .footer__link-item {
+        &-item {
            padding: 1rem;
         }
     }
-    .footer__copy {
+    &__copy {
         font-size: 0.6rem;
         padding-right: 1rem;
     }
 }
-/*.footer__link{
-        margin-left: 2rem;
-        .footer__link-item {
-            padding: 0 1.5rem;
-        }
-    }
-    .copy {
-        font-size: 0.6rem;
-        padding-right: 3rem;
-    }
-    */

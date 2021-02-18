@@ -2,16 +2,16 @@
     display: flex;
     justify-content: space-between;
     margin: 1.2rem;
-    .navbar__nav {
-        .navbar__nav-logo {
+    &__nav {
+        &-logo {
             height: 3.5vh;
         }
-        .navbar__nav-item {
+        &-item {
             font-weight: 700;
             padding: 2rem;
         }
     }
-    .navbar__nav-signin {
+    &__nav-signin {
             font-weight: 700;
             padding: 2rem;
     }
