@@ -1,0 +1,15 @@
+.about {
+    margin: 3rem;
+    &__intro {
+        display: flex;
+        &--video {
+            
+        }
+        &--sidetext {
+            margin-left: 2rem;
+            font-size: 0.8rem;
+        }
+    }
+    
+    
+}

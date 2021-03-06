@@ -1,17 +1,18 @@
 .footer {
-    height: 5vh;
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
-    
+    align-items: center;
+    padding: 1rem;
+    background-color: #f6f8f6;
     &__link{
 
-        &-item {
-           padding: 1rem;
+        &--item {
+            font-size: 0.8rem;;
+            padding: 1rem;
         }
     }
     &__copy {
         font-size: 0.6rem;
-        padding-right: 1rem;
+        padding-right: 2rem;
     }
 }

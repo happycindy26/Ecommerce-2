@@ -9,18 +9,18 @@ class Header extends Component {
             <nav className="navbar">
                  <div className="navbar__nav">
                     <Link to="/botani">
-                        <img className="navbar__nav-logo" src={logo} />
+                        <img className="navbar__nav--logo" src={logo} />
                     </Link>
                
-                    <Link className="navbar__nav-item" to="/botani/home">Home</Link>
-                    <Link className="navbar__nav-item" to="/botani/about">About</Link>
-                    <Link className="navbar__nav-item" to="/botani/products">Products</Link>
-                    <Link className="navbar__nav-item" to="/botani/contact">Contact</Link>
+                    <Link className="navbar__nav--item" to="/botani/home">Home</Link>
+                    <Link className="navbar__nav--item" to="/botani/about">About</Link>
+                    <Link className="navbar__nav--item" to="/botani/products">Products</Link>
+                    <Link className="navbar__nav--item" to="/botani/contact">Contact</Link>
                 </div>
                 <div>
                     <a href="#"><i class="fas fa-search"></i></a>
                     
-                    <Link className="navbar__nav-signin" to="/botani/signin">Sign in</Link>
+                    <Link className="navbar__nav--signin" to="/botani/signin">Sign in</Link>
                 </div>
                 
                 

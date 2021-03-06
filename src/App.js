@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
-//import About from './components/about/About';
+import About from './components/about/About';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
           <Route exact path="/" render={() => <Home />} />
           <Route exact path="/botani" render={() => <Home />} />
           <Route exact path="/botani/home" render={() => <Home />} />
-          
+          <Route exact path="/botani/about" render={() => <About />} />
         </Switch>
         <Footer />
       </div>
