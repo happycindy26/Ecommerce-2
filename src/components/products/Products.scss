@@ -1,0 +1,34 @@
+.products {
+
+    &__title {
+        text-align: center;
+        letter-spacing: .5rem;
+        color:rgb(3, 143, 3);
+        margin-top: 3rem;
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+        &--item {
+            text-align: center;
+            margin-bottom: 5rem;
+            &--img {
+               width: 70%;
+               
+            }
+            &--name {
+                margin-top: 0rem;
+            }
+            &--price {
+    
+            }
+            &--cart {
+                cursor: pointer;
+            }
+        }
+        
+    }
+}

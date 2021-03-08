@@ -5,8 +5,9 @@ import './About.scss';
 const About = () => {
     return (
         <div className="about">
+            <h3 className="about__title">Our Story</h3>
             <div className="about__intro">
-                <iframe className="about__intro--video" width="250" height="250" src={video} frameBorder="1"></iframe>
+                <iframe className="about__intro--video" width="250" height="250" src={video} frameBorder=""></iframe>
                 <div className="about__intro--sidetext">
                 <p>In 1998, Botani paved the way for a new era of eco-conscious, toxin-free, plant based skin-care – inspiring our brand name which literally translates to ‘plant’ in Greek.</p>
                 <p>Today, Botani offers award-winning skin-care for the whole family that is proudly Australian made, clinically verified and ethically conscious. Our key ingredient, Olive Squalene, can be found in most of our products, most potently in our number 1 selling Olive Skin Serum.</p>

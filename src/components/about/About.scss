@@ -1,12 +1,18 @@
 .about {
-    margin: 3rem;
+    height: 80vh;
+    margin: 2rem;
+    &__title {
+        text-align: center;
+        letter-spacing: .5rem;
+        color:rgb(3, 143, 3);
+    }
     &__intro {
         display: flex;
         &--video {
-            
+          margin-right: 2rem;
         }
         &--sidetext {
-            margin-left: 2rem;
+            margin-top: 2rem;
             font-size: 0.8rem;
         }
     }
