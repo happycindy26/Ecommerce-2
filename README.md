@@ -1,10 +1,11 @@
-React, Sass -- This is just different style using Sass(Scss) compare to Ecommerce-1 repository
-To view the web, steps as following after clone:
-npm install
-npm start
-http://localhost:3000/
-click shop button, to the products page
-click a single product, to the product's details page
+1. React, Sass -- This is just different style using Sass(Scss) compare to Ecommerce-1 repository
+2. To view the web, steps as following after clone:
+1) npm install
+2) npm start
+3) http://localhost:3000/
+4) click shop button, to the products page
+5) click a single product, to the product's details page
+6) click Home / About / Products to view different page
 
 
 # Getting Started with Create React App
